@@ -8,8 +8,9 @@ public class HolaMundo {
 	private static final Logger logger = LogManager.getLogger(HolaMundo.class);
 	
 	public static void main(String[] args) {
+
 		logger.info("Info1");
-		System.out.println("Hola Mundo 2" + args[0]);
+		System.out.println("Hola Mundo 4" + args[0]);
 		logger.info("Info");
 
 	}
